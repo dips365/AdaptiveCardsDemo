@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hw-basic-card-view-adaptive-card-extension": {
+      "components": [
+        {
+          "entrypoint": "./lib/adaptiveCardExtensions/hwBasicCardView/HwBasicCardViewAdaptiveCardExtension.js",
+          "manifest": "./src/adaptiveCardExtensions/hwBasicCardView/HwBasicCardViewAdaptiveCardExtension.manifest.json"
+        }
+      ]
+    },
+    "hello-world-adaptive-card-extension": {
+      "components": [
+        {
+          "entrypoint": "./lib/adaptiveCardExtensions/helloWorld/HelloWorldAdaptiveCardExtension.js",
+          "manifest": "./src/adaptiveCardExtensions/helloWorld/HelloWorldAdaptiveCardExtension.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HwBasicCardViewAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/hwBasicCardView/loc/{locale}.js",
+    "HelloWorldAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/helloWorld/loc/{locale}.js"
+  }
+}

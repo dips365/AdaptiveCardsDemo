@@ -1,0 +1,14 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.13.0-beta.17",
+    "libraryName": "hello-world-image-view",
+    "libraryId": "4d52adca-1920-4782-b327-68afb6d77a7c",
+    "environment": "spo",
+    "packageManager": "npm",
+    "isCreatingSolution": true,
+    "plusBeta": true,
+    "isDomainIsolated": false,
+    "componentType": "adaptiveCardExtension",
+    "templateType": "Image"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "primaey-text-view-adaptive-card-extension": {
+      "components": [
+        {
+          "entrypoint": "./lib/adaptiveCardExtensions/primaeyTextView/PrimaeyTextViewAdaptiveCardExtension.js",
+          "manifest": "./src/adaptiveCardExtensions/primaeyTextView/PrimaeyTextViewAdaptiveCardExtension.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PrimaeyTextViewAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/primaeyTextView/loc/{locale}.js"
+  }
+}

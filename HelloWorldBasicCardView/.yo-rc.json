@@ -1,0 +1,14 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.13.0-beta.17",
+    "libraryName": "hello-world",
+    "libraryId": "c2c2d3e3-d852-4c23-8acf-fe158eba1ea9",
+    "environment": "spo",
+    "packageManager": "npm",
+    "isCreatingSolution": false,
+    "plusBeta": true,
+    "isDomainIsolated": false,
+    "templateType": "Basic",
+    "componentType": "adaptiveCardExtension"
+  }
+}

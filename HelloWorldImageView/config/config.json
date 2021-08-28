@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hw-image-card-view-adaptive-card-extension": {
+      "components": [
+        {
+          "entrypoint": "./lib/adaptiveCardExtensions/hwImageCardView/HwImageCardViewAdaptiveCardExtension.js",
+          "manifest": "./src/adaptiveCardExtensions/hwImageCardView/HwImageCardViewAdaptiveCardExtension.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HwImageCardViewAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/hwImageCardView/loc/{locale}.js"
+  }
+}
